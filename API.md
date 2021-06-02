@@ -40,6 +40,7 @@ interface IProps {
   gestureTypeToggle: boolean;
 
   /*** BODY AREA ***/
+  lang: 'en' | 'zh'; // 语言，主要针对头部 周
   lunar: boolean; // 是否展示农历，默认：false, （暂不支持）
   // 面板展示类型：周、月
   type: 'week' | 'month';
